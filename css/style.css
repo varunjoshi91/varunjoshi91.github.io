@@ -158,8 +158,9 @@ footer.page-footer {
     margin-top: 5px;
 }
 ul.project_section.row li{
-margin-left: 5% !important;
+    margin-left: 5% !important;
     padding:15px;
+    min-height:350px;
 }
 .work_thumb{
    
