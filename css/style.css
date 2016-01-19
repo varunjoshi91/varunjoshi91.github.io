@@ -198,6 +198,9 @@ ul.social_icons li a:hover{
     opacity: 0.8;
     background-color: #757575;
 }
+.work_description{
+    min-height: 110px;
+}
 @media only screen and (max-width: 992px){
     .quora_left, footer.page-footer.quora_left{
         margin-left:0;
