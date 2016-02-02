@@ -56,12 +56,32 @@ footer.page-footer {
   margin: 0;
 }
 
+.personal_logo{
+    position:absolute;
+    left: 20%;
+    top:25%;
+}
+
+.side-nav .personal_logo:hover{
+    background:none !important;
+}
+
+.personal_logo a{
+    height: auto;
+    text-align: center;
+}
+
+.personal_logo img {
+    width: 250px;
+    border-radius: 5px;
+}
+
 .quora_logo a{
     display: block;
     width: 300px;
     /*height: 50px;*/
     background-size: 280px 58px;
-    background-image: url(../img/quora_logo.svg);
+    background-image: url(../img/favicon.ico);
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 auto;
@@ -74,10 +94,12 @@ footer.page-footer {
     background-color: #fcfcfc;
 /*    left:0 !important;*/
 }
-.quora_logo .love{
+.personal_logo .love{
+/*
     position:absolute;
     left:55px;
     top:55px;
+*/
 }
 .quora_left,footer.page-footer.quora_left{
     margin-left: 35%;
